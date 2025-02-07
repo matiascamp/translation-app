@@ -1,0 +1,36 @@
+.lenguages-wrapper {
+    width: 100%;
+}
+
+.selectors-container {
+    display: flex;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+    border-bottom: 1px solid #394150;
+    gap: 8px;
+    position: relative;
+}
+
+.selectors-container select,
+.selectors-container button {
+    background-color: transparent;
+    border: none;
+    color: #F9FAFB;
+    padding: 0.5rem;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.button-reverse {
+    position: absolute;
+    right: 0;
+    padding: 3px !important;
+    border-radius: 8px !important;
+    border: 2px solid #394150 !important;
+}
+
+.selected {
+    background-color: #4D5562 !important;
+}

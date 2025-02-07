@@ -1,0 +1,43 @@
+textarea {
+    background-color: transparent;
+    margin-top: 1rem;
+    border: none;
+    min-height: 150px;
+    width: 100%;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-area-container {
+    position: relative;
+}
+
+.text-area-counter {
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.button-translate {
+    background-color: #263FA9;
+    border: 1px solid #7CA9F3;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
