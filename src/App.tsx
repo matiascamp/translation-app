@@ -1,7 +1,7 @@
 import SubmitModal from './components/submit/submit'
 import './App.css'
 import ShowModal from './components/show/show';
-import Languagues from './components/languages/lenguagues';
+import Languagues from './components/Languages/lenguagues';
 
 
 function App() {
